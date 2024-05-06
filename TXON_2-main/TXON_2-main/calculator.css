@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightpink;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.text-center {
+    font-size: 46px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    font-family: "Bree Serif";
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    height: 48px;
+    width: 48px;
+    background-color: rgb(55, 50, 50);
+    box-shadow: -5px -5px 12px #5b5252, 5px 5px 12px rgba(253, 253, 253, 0.976);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    color: #ecf0f3;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.row {
+    background-color: #002633;
+    padding: 16px;
+    border-radius: 11px;
+    box-shadow: -5px -5px 12px #1e1a1a, 5px 5px 12px rgba(253, 253, 253, 0.976);
+    display: grid;
+    grid-template-columns: repeat(4, 79px);
+}
+
+input {
+    grid-column: span 4;
+    height: 70px;
+    widows: 260px;
+    background-color: white;
+    box-shadow: -5px -5px 12px #5b5252, 5px 5px 12px rgba(97, 83, 83, 0.976);
+    border: none;
+    border-radius: 7px;
+    color: black;
+    font-size: 40px;
+    text-align: end;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: "Roboto"
+}
+
+.equal {
+    width: 121px;
+    border-radius: 40px;
+    color: #ecf0f3;
+    font-size: 30px;
+    background-color: #00e6e6;
+    box-shadow: -5px -5px 12px #5b5252, 5px 5px 12px rgba(253, 253, 253, 0.976);
+}
+
+.bg-cancel {
+    color: red;
+    font-family: 500;
+}
+
+.bg-orange {
+    color: rgb(223, 137, 0);
+}
